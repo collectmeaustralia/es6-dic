@@ -25,5 +25,8 @@
   "homepage": "https://github.com/madbence/es6-dic",
   "devDependencies": {
     "tape": "^2.13.1"
+  },
+  "browserify": {
+    "transform": ["babelify"]
   }
 }
